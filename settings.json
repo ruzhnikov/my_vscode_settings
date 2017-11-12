@@ -1,0 +1,16 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "go.formatTool":"gofmt",
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "code-runner.executorMap": {
+        "perl6": "perl6"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".pl6": "perl6",
+        ".pm6": "perl6"
+    }
+}
