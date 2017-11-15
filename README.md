@@ -1,3 +1,3 @@
 ## Description
 
-My custom settings for VS Code
+My custom settings and keybindings for VS Code
