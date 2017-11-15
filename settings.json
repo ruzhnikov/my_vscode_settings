@@ -1,15 +1,11 @@
 {
     "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "file-icons",
-    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.renderWhitespace": "all",
-    "go.formatTool":"gofmt",
+    "go.formatTool": "gofmt",
     "[html]": {
         "editor.tabSize": 2
     },
     "code-runner.executorMap": {
-        "perl6": "perl6",
-        "python": "python3"
+        "perl6": "perl6"
     },
     "code-runner.executorMapByFileExtension": {
         ".pl6": "perl6",
@@ -20,7 +16,7 @@
     //     "comments": true,
     //     "strings": true
     // },
-    "[markdown]":  {
+    "[markdown]": {
         "editor.quickSuggestions": {
             // разрешать автодополнение для строк
             // при редактировании markdown
@@ -31,6 +27,11 @@
         // не ругаться на пробелы в конце строк
         "MD009": false
     },
-    "explorer.confirmDragAndDrop": false,
-    "sublimeTextKeymap.promptV3Features": true
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.fontFamily": "'Hack', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "explorer.confirmDragAndDrop": true
 }
