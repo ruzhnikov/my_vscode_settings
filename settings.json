@@ -30,5 +30,7 @@
     "markdownlint.config": {
         // не ругаться на пробелы в конце строк
         "MD009": false
-    }
+    },
+    "explorer.confirmDragAndDrop": false,
+    "sublimeTextKeymap.promptV3Features": true
 }
