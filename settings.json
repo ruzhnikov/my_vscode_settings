@@ -11,11 +11,6 @@
         ".pl6": "perl6",
         ".pm6": "perl6"
     },
-    // "editor.quickSuggestions": {
-    //     "other": true,
-    //     "comments": true,
-    //     "strings": true
-    // },
     "[markdown]": {
         "editor.quickSuggestions": {
             // разрешать автодополнение для строк
@@ -33,5 +28,10 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "explorer.confirmDragAndDrop": true
+    "explorer.confirmDragAndDrop": false,
+    // запрещаем автоформатирование C/C++ кода при копипасте
+    // из других мест. Это в первую очередь относится к автопереносу
+    // открывающих фигурных скобок и количеству пробелов в отступах в
+    // функциях
+    "C_Cpp.clang_format_fallbackStyle": "none"
 }
